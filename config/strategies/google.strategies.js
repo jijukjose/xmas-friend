@@ -7,7 +7,7 @@ module.exports = function () {
             clientID: '330971086891-15cqbie6ofp5gto6pjoke2kc672s5096.apps.googleusercontent.com',
             //clientSecret: 'MhUcl6Lc8vj3QdG4EkkgBq_m',
             clientSecret: 'I3dwktSnvSISV1Xr_iifOUvD',
-            callbackURL: 'http://guarded-plains-98992:'+port+'/auth/google/callback',
+            callbackURL: 'https://guarded-plains-98992:'+port+'/auth/google/callback',
         },
         function(req, accessToken, refreshToken, profile, done){
             var user = {};
