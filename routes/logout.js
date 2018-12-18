@@ -7,16 +7,10 @@ router.use('/', function(req, res, next){
   }
   next();
 });
-/* GET users listing. */
 router.get('/', function(req, res) {
-  console.log(req.user);
-  res.render('users', {
-    user:{
-      name: req.user.displayName,
-      image: req.user.image,
-      email: req.user.email
-    }
-  });
+    console.log("logged out!");
+    req.logout();
+    res.redirect('https://accounts.google.com/logout');
 });
 
 module.exports = router;

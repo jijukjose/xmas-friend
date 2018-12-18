@@ -6,13 +6,17 @@
 
     <script src="lib/js/jquery.js"></script>
     <script src="lib/js/bootstrap.js"></script>
-
 </head>
 
-    <body>
-
-        <div id="pic" image-path="<%=user.imagePath%>">
+    <body id="#main">
+        <div id="div1">
+            <%=title%>
+            <ul>
+                <li>
+                    <a href="/auth/google" class="googleplus"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
         </div>
-        <script src="javascripts/app.js"></script>
+
     </body>
 </html>

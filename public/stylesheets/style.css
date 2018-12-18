@@ -1,8 +1,20 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/xmas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 a {
   color: #00B7FF;
+}
+
+#pic {
+  border: aliceblue;
+  height: 700px;
+  width: 700px;
+  border-style: groove;
+  margin-left: 600;
+  /*background-image: url(../images/sanju.png);*/
+  background-size: cover;
 }
