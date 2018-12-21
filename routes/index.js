@@ -23,7 +23,7 @@ router.get('/', function(req, res, next) {
       imagePath += "sanju.png";
   } else if ((email.indexOf("sanju") !== -1) ||(email.indexOf("sunu") !== -1))  {
       imagePath += "melwin.jpg";
-  }else if (email.indexOf("jainy") !== -1) {
+  }else if ((email.indexOf("jainy") !== -1) || (email.indexOf("Jainy") !== -1)) {
       imagePath += "jiju.jpg";
   } else {
       imagePath += "jesus.jpg"
